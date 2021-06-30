@@ -1,12 +1,10 @@
 import sys
 from PyQt5.QtWidgets import *
-from PyQt5.QtWidgets import QDialog, QApplication, QPushButton, QVBoxLayout
-from PyQt5 import QtWidgets, uic
-import pandas as pd
+from PyQt5.QtWidgets import  QApplication
+from PyQt5 import uic
 import numpy as np
 from sklearn.ensemble import ExtraTreesRegressor
 from sklearn.model_selection import train_test_split
-from sklearn import linear_model
 import matplotlib.pyplot as plt
 from sklearn.metrics import r2_score, mean_squared_error
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
